@@ -1,0 +1,32 @@
+{
+  "name": "case-study-agent",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ag-ui/mastra": "^0.0.5",
+    "@copilotkit/react-core": "^1.9.3",
+    "@copilotkit/react-ui": "^1.9.3",
+    "@copilotkit/runtime": "^1.9.3",
+    "@mastra/client-js": "^0.10.16",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
